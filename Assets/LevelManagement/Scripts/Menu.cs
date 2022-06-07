@@ -35,7 +35,6 @@ namespace LevelManagement
     public abstract class Menu :MonoBehaviour
     {
         public virtual void OnBackPressed () {
-            //MenuManager menuManager = MenuManager.Instance;
             if (MenuManager.Instance != null) {
                 MenuManager.Instance.CloseMenu();
             }
